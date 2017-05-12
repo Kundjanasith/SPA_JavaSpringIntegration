@@ -18,8 +18,6 @@ import com.spa.assignment4.service.InvoiceCollectorGateway;
 
 @SpringBootApplication
 public class Application {
-
-//	private static Logger logger = Logger.getLogger(Application.class);
 	
 	public static void main(String[] args) {
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(Config.class);
@@ -48,3 +46,4 @@ public class Application {
 	
 	
 }
+

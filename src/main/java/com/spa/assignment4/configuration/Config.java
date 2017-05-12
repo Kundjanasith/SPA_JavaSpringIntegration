@@ -11,34 +11,17 @@ import org.springframework.messaging.MessageChannel;
 @ComponentScan(basePackages="com.spa.assignment4")
 @IntegrationComponentScan(basePackages="com.spa.assignment4")
 public class Config {
-	
 	@Bean
-	public MessageChannel newInvoicesChannel() {
-		return new DirectChannel();
-	}
-	
+	public MessageChannel newInvoicesChannel() { return new DirectChannel(); }
 	@Bean
-	public MessageChannel singleInvoicesChannel() {
-		return new DirectChannel();
-	}
-	
+	public MessageChannel singleInvoicesChannel() { return new DirectChannel(); }
 	@Bean
-	public MessageChannel filteredInvoicesChannel() {
-		return new DirectChannel();
-	}
-	
+	public MessageChannel filteredInvoicesChannel() { return new DirectChannel(); }
 	@Bean
-	public MessageChannel foreignTransactions() {
-		return new DirectChannel();
-	}
-	
+	public MessageChannel foreignTransactions() { return new DirectChannel(); }
 	@Bean
-	public MessageChannel localTransactions() {
-		return new DirectChannel();
-	}
-	
+	public MessageChannel localTransactions() { return new DirectChannel(); }
 	@Bean
-	public MessageChannel bankingChannel() {
-		return new DirectChannel();
-	}
+	public MessageChannel bankingChannel() { return new DirectChannel(); }
 }
+
